@@ -156,6 +156,37 @@ h5 {
    color: white;
 }
 
+/* Coming Soon Section */
+.coming-soon {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+}
+
+.circular-image {
+   margin: 0 1.5rem;
+   width: 28.75rem;
+   height: 28.75rem;
+   border-radius: 50%;
+   background-clip: content-box;
+   padding: 1.5rem;
+   border: 0.75rem solid red;
+}
+
+.coming-soon > .right-box {
+   text-align: right;
+}
+
+.coming-soon > .right-box > .description {
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+}
+
+.coming-soon > .right-box > img {
+   width: 8.75rem;
+   height: 8.75rem;
+}
+
 /* ANCHOR Utilities */
 .mt-16 {
    margin-top: 1rem;
