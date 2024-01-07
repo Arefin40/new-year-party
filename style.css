@@ -68,6 +68,28 @@ h5 {
 }
 
 /* ANCHOR Components */
+/* Hero Section */
+.hero-section {
+   margin-top: 3rem;
+   height: 36rem;
+   display: grid;
+   justify-items: center;
+   align-content: center;
+   background-image: linear-gradient(to bottom, #070211, #07021133),
+      url("/assets/images/Banner Image.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+
+.hero-greeting {
+   font-weight: normal;
+}
+
+.hero-title {
+   max-width: 50rem;
+   margin-top: 1.5rem;
+}
 
 /* ANCHOR Utilities */
 .mt-16 {
