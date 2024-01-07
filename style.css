@@ -91,6 +91,16 @@ h5 {
    margin-top: 1.5rem;
 }
 
+/* Discount Section */
+.parcentage {
+   margin-bottom: 2rem;
+}
+
+.discount-hny-image {
+   max-width: 50rem;
+   margin: 3rem auto 0;
+}
+
 /* ANCHOR Utilities */
 .mt-16 {
    margin-top: 1rem;
