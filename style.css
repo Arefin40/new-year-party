@@ -76,7 +76,7 @@ h5 {
    justify-items: center;
    align-content: center;
    background-image: linear-gradient(to bottom, #070211, #07021133),
-      url("/assets/images/Banner Image.png");
+      url("assets/images/Banner Image.png");
    background-repeat: no-repeat;
    background-size: cover;
    color: white;
