@@ -101,6 +101,61 @@ h5 {
    margin: 3rem auto 0;
 }
 
+/* Party Promotion Section */
+.party-promo {
+   padding: 6rem;
+   background-image: url("assets/images/NY2024.png"),
+      linear-gradient(to right, #070211, #07021100),
+      url("assets/images/Models-1.png");
+   background-repeat: no-repeat;
+   background-position: right 3rem center, center center, center center;
+   background-size: auto 80%, cover, cover;
+}
+.party-promo-title {
+   font-style: italic;
+   max-width: 40rem;
+}
+
+.party-promo-description {
+   margin-top: 1.75rem;
+   margin-bottom: 2.5rem;
+   max-width: 40rem;
+   font-style: italic;
+   color: #bbbbbb;
+}
+
+.party-promo-join-btn {
+   background-color: transparent;
+   color: white;
+   border: 1px solid #252525;
+}
+
+.party-promo-join-btn:hover {
+   background-color: #78787840;
+}
+
+/* Event Schedule Section */
+.event-schedule {
+   padding: 6rem;
+   background-image: linear-gradient(to bottom, #ff00001a, #ff000000);
+}
+
+.event-info {
+   display: flex;
+   flex-direction: column;
+   gap: 1.25rem;
+   margin-bottom: 2.5rem;
+}
+
+.event-info > h4 {
+   font-weight: normal;
+}
+
+.event-schedule > .event-join-btn {
+   background-color: red;
+   color: white;
+}
+
 /* ANCHOR Utilities */
 .mt-16 {
    margin-top: 1rem;
