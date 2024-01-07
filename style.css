@@ -240,6 +240,18 @@ h5 {
    transform: translateY(-50%);
 }
 
+/* Portfolio Section */
+.portfolio > .description {
+   max-width: 56.25rem;
+}
+
+.portfolio > .gallery {
+   margin-top: 3rem;
+   display: grid;
+   gap: 1.5rem;
+   grid-template-columns: repeat(3, 1fr);
+}
+
 /* ANCHOR Utilities */
 .mt-16 {
    margin-top: 1rem;
