@@ -5,11 +5,94 @@
    padding: 0;
 }
 
-body {
+body,
+button {
    font-family: "Exo 2", sans-serif;
-   line-height: 1.5;
+   font-size: 16px;
+}
+
+p {
+   line-height: 1.6;
+}
+
+h1 {
+   font-size: 5.5rem;
+}
+
+h2 {
+   font-size: 4.5rem;
+}
+
+h3 {
+   font-size: 3rem;
+}
+
+h4 {
+   font-size: 2rem;
+}
+
+h5 {
+   font-size: 1.5rem;
+   font-weight: normal;
+}
+
+.container {
+   max-width: 1280px;
+   width: 100%;
+   margin: 6rem auto 0;
+   border-radius: 1rem;
+}
+
+.btn {
+   padding: 1rem 2rem;
+   border-radius: 0.5rem;
+   border: 1px solid transparent;
+   outline: none;
+   transition: all;
+   transition-duration: 150ms;
+}
+
+.btn:active {
+   transform: scale(0.9);
+}
+
+.section-title {
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.description {
+   font-size: 1.25rem;
+   font-weight: lighter;
+   color: #767676;
 }
 
 /* ANCHOR Components */
 
 /* ANCHOR Utilities */
+.mt-16 {
+   margin-top: 1rem;
+}
+.mt-24 {
+   margin-top: 1.5rem;
+}
+
+.border {
+   border: 1px solid lightgray;
+}
+
+.rounded {
+   border-radius: 100px;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.text-primary {
+   color: red;
+}
+
+.text-white {
+   color: white;
+}
