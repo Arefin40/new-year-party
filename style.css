@@ -187,6 +187,59 @@ h5 {
    height: 8.75rem;
 }
 
+/* Sale Section */
+.sale-title {
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+}
+
+.sale-section > .description {
+   max-width: 64rem;
+   margin: 0 auto 4rem;
+}
+
+.sale-mediabox {
+   height: 30rem;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+}
+
+.sale-mediabox > img {
+   height: 100%;
+}
+
+.sale-mediabox > .red-box {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   z-index: -1;
+   height: 8.75rem;
+   width: 100%;
+   border-radius: 1rem 0 1rem 1rem;
+   background-color: red;
+}
+
+.sale-mediabox > .right-box {
+   margin-bottom: 8.75rem;
+   position: relative;
+   display: flex;
+   justify-content: end;
+}
+
+.sale-mediabox > .right-box > img {
+   height: 100%;
+}
+
+.sale-mediabox > .right-box > .discount {
+   position: absolute;
+   left: 0;
+   top: 50%;
+   width: 12rem;
+   height: 12rem;
+   transform: translateY(-50%);
+}
+
 /* ANCHOR Utilities */
 .mt-16 {
    margin-top: 1rem;
