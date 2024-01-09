@@ -80,6 +80,7 @@ h5 {
       url("assets/images/Banner Image.png");
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: center center;
    color: white;
 }
 
@@ -112,6 +113,7 @@ h5 {
    background-position: right 3rem center, center center, center center;
    background-size: auto 80%, cover, cover;
 }
+
 .party-promo-title {
    font-style: italic;
    max-width: 40rem;
@@ -246,11 +248,38 @@ h5 {
    max-width: 56.25rem;
 }
 
-.portfolio > .gallery {
+.product-gallery {
    margin-top: 3rem;
    display: grid;
    gap: 1.5rem;
    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-card {
+   position: relative;
+   overflow: hidden;
+   border-radius: 1rem;
+}
+
+.product-card > .product-info {
+   padding: 0 3rem;
+   height: 6rem;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   font-size: 1.5rem;
+   color: white;
+   display: grid;
+   align-items: center;
+   background-image: linear-gradient(to bottom, #1e1e1e00, #1e1e1ebf);
+   transform: translateY(100%);
+   transition: all;
+   transition-duration: 200ms;
+}
+
+.product-card:hover > .product-info {
+   transform: translateY(0);
 }
 
 /* Newsletter Section */
@@ -272,12 +301,12 @@ h5 {
    font-size: 1rem;
 }
 
-.subscription {
+.subscription-form {
    margin-top: 3rem;
    position: relative;
 }
 
-.newsletter > .subscription > .input {
+.subscription-form > .text-field {
    padding: 1rem 1.5rem;
    background: white;
    height: 100%;
@@ -286,11 +315,11 @@ h5 {
    outline: none;
 }
 
-.newsletter > .subscription > .input::placeholder {
+.subscription-form > .text-field::placeholder {
    color: #b0b0b0;
 }
 
-.newsletter > .subscription > .submit-btn {
+.subscription-form > .submit-btn {
    position: absolute;
    right: 0;
    height: 100%;
@@ -356,9 +385,15 @@ h5 {
    column-gap: 1.5rem;
 }
 
-.social-links > img {
+.social-links > a > img {
    width: 3.5rem;
    height: 3.5rem;
+   transition: all;
+   transition-duration: 120ms;
+}
+
+.social-links > a:hover > img {
+   transform: scale(1.25);
 }
 
 .footer-section > footer {
@@ -367,7 +402,7 @@ h5 {
    align-content: center;
 }
 
-.footer-section > footer > a {
+.footer-area a {
    color: white;
    text-decoration: none;
 }
